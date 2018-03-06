@@ -9,6 +9,7 @@ constantly==15.1.0
 cryptography==2.1.4
 dateparser==0.7.0
 Django==2.0.2
+django-bower==5.2.0
 hyperlink==18.0.0
 idna==2.6
 incremental==17.5.0
