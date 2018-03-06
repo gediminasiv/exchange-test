@@ -25,7 +25,7 @@ SECRET_KEY = '$)x@0!si%*c4&#p@*uy54n$lpv4j5)6xc)p&qm*21)05q)@g8w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -137,11 +137,3 @@ BOWER_COMPONENTS_ROOT = SETTINGS_PATH + '/sample/static/components/'
 BOWER_INSTALLED_APPS = [
     'bootstrap'
 ]
-
-# Exchange key info
-
-KRAKEN_API_KEY='yVG/PD8wC1NU1NL40PjRizQu7EN9DQc6uk/JPYpw95b9vv7RtncikvVV'
-KRAKEN_API_SECRET='iiemX+mXh1DC87QLc28li4nwodVWkoAj4f7EwC/hIfBAPD4AMUFY9BI5I0EdAn8jj0tWyuZibdJJy1xGNv7Ypw=='
-
-BINANCE_API_KEY='JMo8iyZK0fSETY7LZeHN9M1a3X6YrJDhrjhLNlg9onV8K7yLK6fmHhcLM3hhxwfn'
-BINANCE_API_SECRET='BdNuvRWnBWLEYTKjXPBeXL9CMP06fkBw29YOJSsbyUmRT2U6AI0e9aDavl025OQ6'
